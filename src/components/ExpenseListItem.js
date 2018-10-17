@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import moment from 'moment';
 import numeral from 'numeral';
 
+// viewing 3 expensing totalling <sum>
 const ExpenseListItem = ({ id, description, amount, createdAt }) => (
     <div>
         <Link to={`/edit/${id}`}>
